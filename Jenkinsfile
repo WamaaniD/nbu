@@ -11,6 +11,7 @@ pipeline {
  stage('Test') {
             steps {
                 echo 'Testing automatically'
+                echo "Hello Team"
             }
         }
  stage('Deploy') {
